@@ -1,5 +1,7 @@
 # SongCraftSEE 🎵
 
+[![PyPI version](https://badge.fury.io/py/SongCraftSEE.svg)](https://badge.fury.io/py/SongCraftSEE)
+
 SongCraftSEE is a Python package that combines the power of text-based melody generation with real-time notifications using Server-Sent Events (SSE). This project demonstrates the magic of turning lyrics or text into beautiful melodies and keeping you informed about the progress.
 
 <p align="center">
