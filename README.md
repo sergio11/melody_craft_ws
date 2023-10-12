@@ -2,6 +2,12 @@
 
 SongCraftSEE is a Python package that combines the power of text-based melody generation with real-time notifications using Server-Sent Events (SSE). This project demonstrates the magic of turning lyrics or text into beautiful melodies and keeping you informed about the progress.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white" />
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+</p>
+
 🚀 **Features:**
 - Generate melodies from text input.
 - Estimated duration based on the number of words and average WPM.
