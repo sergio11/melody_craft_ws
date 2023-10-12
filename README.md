@@ -29,7 +29,7 @@ This project is built using the following tools and libraries:
 1. Install the package via `pip`:
 
 ```bash
-pip install songcraftsee
+pip install SongCraftSEE
 ```
 
 2. Create a Flask application and integrate the package to generate melodies and send SSE events.
