@@ -1,8 +1,8 @@
-# SongCraftSEE 🎵
+# MelodyCraftWS 🎵
 
-[![PyPI version](https://badge.fury.io/py/SongCraftSEE.svg)](https://badge.fury.io/py/SongCraftSEE)
+[![PyPI version](https://badge.fury.io/py/MelodyCraftWS.svg)](https://badge.fury.io/py/MelodyCraftWS)
 
-SongCraftSEE is a Python package that combines the power of text-based melody generation with real-time notifications using Server-Sent Events (SSE). This project demonstrates the magic of turning lyrics or text into beautiful melodies and keeping you informed about the progress.
+MelodyCraftWS is a Python package that combines the power of text-based melody generation with real-time notifications using WebSockets. This project demonstrates the magic of turning lyrics or text into beautiful melodies and keeping you informed about the progress.
 
 <p align="center">
   <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" />
@@ -13,7 +13,7 @@ SongCraftSEE is a Python package that combines the power of text-based melody ge
 🚀 **Features:**
 - Generate melodies from text input.
 - Estimated duration based on the number of words and average WPM.
-- Real-time progress updates via SSE.
+- Real-time progress updates via WebSockets.
 - Send success or error notifications to the client.
 
 ## Implementation Details 🛠️
@@ -21,28 +21,26 @@ SongCraftSEE is a Python package that combines the power of text-based melody ge
 This project is built using the following tools and libraries:
 
 - [Flask](https://flask.palletsprojects.com/): A micro web framework for building web applications.
-- [Flask-SSE](https://flask-sse.readthedocs.io/): A Flask extension for Server-Sent Events.
+- [Flask-SocketIO](https://flask-socketio.readthedocs.io/): A Flask extension for WebSockets.
 - [Audiocraft](https://github.com/yourusername/audiocraft): A Python library for music and audio generation.
 
 ## Usage 📦
 
 1. Install the package via `pip`:
-
+   
 ```bash
-pip install SongCraftSEE
+pip install MelodyCraftWS
 ```
 
-2. Create a Flask application and integrate the package to generate melodies and send SSE events.
-
+2. Create a Flask application and integrate the package to generate melodies and send WebSocket events.
 3. Start your application, and it's ready to generate melodies from text and send notifications in real-time.
 
 ## How to Generate Melodies 🎶
-
 Send a POST request to the /generate_melody endpoint with the text parameter containing the lyrics or text you want to transform into a melody.
 
 The estimated duration is calculated based on the text's word count and an average words per minute (WPM) rate.
 
-The melody is generated using the Audiocraft library, and real-time updates are sent to the client via SSE.
+The melody is generated using the Audiocraft library, and real-time updates are sent to the client via WebSockets.
 
 Success or error notifications are sent depending on the outcome.
 
@@ -51,4 +49,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Feel free to contribute, report issues, and make this project even better!
 
-🌟 Enjoy creating melodies with SongCraftSEE! 🌟
+🌟 Enjoy creating melodies with MelodyCraftWS! 🌟
