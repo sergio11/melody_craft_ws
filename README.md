@@ -36,7 +36,7 @@ pip install MelodyCraftWS
 
 ```python
 # Import the necessary components and set up the MelodyCraftServer
-from MelodyCraftWS import MelodyCraftServer
+from melodycraftWS.server.melody_craft_server import MelodyCraftServer
 
 server = MelodyCraftServer()
 ```
@@ -69,7 +69,7 @@ Ensure you have the MelodyCraftClient class defined in a file, such as melodycra
 ```python
 # melodycraft_client.py
 
-from MelodyCraftWS import MelodyCraftClient
+from melodycraftWS.client.melody_craft_client import MelodyCraftClient
 
 if __name__ == '__main__':
     # Replace 'server_url' and 'client_id' with the actual values
