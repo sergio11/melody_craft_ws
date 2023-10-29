@@ -94,7 +94,7 @@ if __name__ == '__main__':
     client.disconnect()
 ```
 
-#####Step 2: Running the Client
+##### Step 2: Running the Client
 
 Open a separate terminal and navigate to the location of the melodycraft_client.py file.
 Run the client by executing the following command:
@@ -112,6 +112,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Feel free to contribute, report issues, and make this project even better!
 
-🌟 Enjoy creating melodies with MelodyCraftWS! 🌟
+### 🌟 Enjoy creating melodies with MelodyCraftWS! 🌟
 
 
