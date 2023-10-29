@@ -25,13 +25,8 @@ setup(
         'Programming Language :: Python :: 3.10',
     ],
     python_requires='>=3.7, <4',
-    long_description=open('README.md').read(),
+    long_description = open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
-    entry_points={
-        'console_scripts': [
-            'melodycraftWS = melodycraftWS.app:run',
-        ],
-    }
 )
 
 """
